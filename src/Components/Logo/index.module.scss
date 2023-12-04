@@ -1,0 +1,12 @@
+.logo {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    .logo_text {
+        font-size: 30px;
+        font-family: 'Sonsie One';
+        color: var(--white-color-hover);
+        text-transform: uppercase;
+    }
+}

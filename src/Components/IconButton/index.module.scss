@@ -1,0 +1,30 @@
+.icon_button{
+    border-radius: 100%;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    .button_icon{
+
+    }
+}
+.button_icon{
+    width: 34px;
+    height: 34px;
+}
+.medium{
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button_icon{
+        height: 20px;
+        width: auto;
+    }
+}
+.only_icon{
+    .button_icon{
+        width: 34px;
+        height: 34px;
+    }
+}

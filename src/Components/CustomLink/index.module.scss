@@ -1,0 +1,11 @@
+.custom_link {
+    color: var(--blue-color-hover);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.custom_link:hover{
+    text-decoration: underline;
+}
