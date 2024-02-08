@@ -15,7 +15,13 @@
 .border_raius{
     border-radius: 26px;
 }
-
+.blank{
+    background-color: transparent;
+    border: none;
+    .custom_input{
+        font-size: 22px;
+    }
+}
 .medium {
     padding: 12px 20px;
     font-size: 15px;

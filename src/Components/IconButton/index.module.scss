@@ -1,30 +1,48 @@
-.icon_button{
+.icon_button {
     border-radius: 100%;
     display: flex;
     border: none;
     background-color: transparent;
     cursor: pointer;
-    .button_icon{
 
-    }
 }
-.button_icon{
+
+.button_icon {
     width: 34px;
     height: 34px;
 }
-.medium{
+
+.medium {
     padding: 15px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    .button_icon{
+
+    .button_image {
+        width: 34px;
+        height: 34px;
+    }
+    .button_icon {
         height: 20px;
         width: auto;
     }
+    .blue{
+        fill: var(--blue-color);
+    }
+    
 }
-.only_icon{
-    .button_icon{
+
+.only_icon {
+    .button_image {
         width: 34px;
         height: 34px;
+    }
+
+    .button_icon {
+        width: 34px;
+        height: 34px;
+    }
+    .blue{
+        fill: var(--blue-color);
     }
 }
