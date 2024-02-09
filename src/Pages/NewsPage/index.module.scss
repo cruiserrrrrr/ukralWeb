@@ -9,7 +9,8 @@
         max-width: 600px;
         display: flex;
         flex-wrap: nowrap;
-        justify-content: center;
         margin-left: 6px;
+        flex-direction: column;
+        gap: 6px;
     }
 }
